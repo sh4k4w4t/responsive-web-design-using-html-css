@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlivePython</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/571d2543a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo.png" alt="" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- ------------about us section ------------- -->
+
+    <section class="about-us">
+      <div class="row">
+
+        <div class="about-col">
+          <h1>We are the world leargest community</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente temporibus consectetur incidunt, aliquam quas veritatis quos expedita odit nihil esse sit est minus voluptas possimus corrupti voluptatem placeat ut. Aliquid.<br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis deserunt sequi ab odio fugit accusantium eius quis voluptatibus numquam nemo, pariatur aperiam unde autem. Animi veritatis reiciendis repellendus aliquid consectetur?<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quas sunt optio corrupti cumque reprehenderit repellendus deleniti consectetur nam minima.</p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+
+        <div class="about-col">
+          <img src="images/about.jpg" alt="" srcset="">
+        </div>
+
+      </div>
+    </section>  
+
+  
+
+
+
+
+
+
+
+
+
+<!-- ---------------footer--------------- -->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet.lorem25 Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Atque dolor corporis architecto perferendis doloremque magni repellendus dignissimos deleniti laboriosam quos!</p>
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-brands fa-linkedin"></i>
+		<i class="fa-brands fa-telegram"></i>
+		<i class="fa-brands fa-yandex-international"></i>
+	</div>
+	<p>Made With <i class="fa-regular fa-heart"></i> By AlivePython</p>
+</section>
+
+
+
+
+
+
+
+    <!-- -------------Script---------- -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

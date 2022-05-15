@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlivePython</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/571d2543a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo.png" alt="" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+    <!-- -----------blog page content---------- -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programs For 2022</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+            dolores veritatis temporibus hic ratione accusamus eaque maxime,
+            similique amet ex id quos sit voluptatum sequi impedit tempora?
+            Mollitia quaerat, iusto error, provident placeat vel laudantium
+            accusamus animi dolore a reiciendis. Totam ab nihil facere itaque
+            temporibus quasi nulla deserunt sed? <br /><br />Lorem ipsum dolor,
+            sit amet consectetur adipisicing elit. Consectetur non ea blanditiis
+            itaque hic possimus at nobis velit impedit labore, dolor error quam,
+            praesentium maiores deserunt minus laborum magni quos? Laborum modi
+            quos ducimus quidem repellat molestiae, laboriosam quae consequatur
+            consectetur suscipit ratione ab saepe itaque cumque exercitationem
+            error porro? <br /><br />Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Consectetur non ea blanditiis itaque hic possimus
+            at nobis velit impedit labore, dolor error quam, praesentium maiores
+            deserunt minus laborum magni quos? Laborum modi quos ducimus quidem
+            repellat molestiae, laboriosam quae consequatur consectetur suscipit
+            ratione ab saepe itaque cumque exercitationem error porro?
+            <br /><br />Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Consectetur non ea blanditiis itaque hic possimus at nobis
+            velit impedit labore, dolor error quam, praesentium maiores deserunt
+            minus laborum magni quos? Laborum modi quos ducimus quidem repellat
+            molestiae, laboriosam quae consequatur consectetur suscipit ratione
+            ab saepe itaque cumque exercitationem error porro? <br /><br />Lorem
+            ipsum dolor, sit amet consectetur adipisicing elit. Consectetur non
+            ea blanditiis itaque hic possimus at nobis velit impedit labore,
+            dolor error quam, praesentium maiores deserunt minus laborum magni
+            quos? Laborum modi quos ducimus quidem repellat molestiae,
+            laboriosam quae consequatur consectetur suscipit ratione ab saepe
+            itaque cumque exercitationem error porro?
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form action="" class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Email">
+              <textarea rows="5" placeholder="Your comment">
+              </textarea>
+              <button type="button" class="hero-btn red-btn">Post Comment</button>
+            </form>
+          </div>
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Catagories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Analytics</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Web Programming</span>
+            <span>26</span>
+          </div>
+          <div>
+            <span>Design & Development</span>
+            <span>29</span>
+          </div>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Analytics</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Web Programming</span>
+            <span>26</span>
+          </div>
+          <div>
+            <span>Design & Development</span>
+            <span>29</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------footer--------------- -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet.lorem25 Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. <br />
+        Atque dolor corporis architecto perferendis doloremque magni repellendus
+        dignissimos deleniti laboriosam quos!
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-telegram"></i>
+        <i class="fa-brands fa-yandex-international"></i>
+      </div>
+      <p>Made With <i class="fa-regular fa-heart"></i> By AlivePython</p>
+    </section>
+
+    <!-- -------------Script---------- -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,9 +1,251 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>foobar</title>
-	</head>
-	<body>
-		<div>foobar</div>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AlivePython</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/571d2543a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo.png" alt="" />
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT </a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>Learning, Learning and Learning</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora
+          totam odio veniam repellendus voluptatibus non tenetur sit eum
+          explicabo placeat aut in, <br />
+          cum consequuntur aliquid mollitia. Autem, molestias aliquam.
+        </p>
+        <a href="" class="hero-btn">Visit Us to Know More.</a>
+      </div>
+    </section>
+
+    <!-- Course Section -->
+
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        numquam quae alias ipsam commodi quibusdam amet dolorem dolore totam.
+        Ipsum?
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Web Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+            eum. Illo sint quo fugit culpa enim debitis, asperiores amet
+            necessitatibus!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Web Dev</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+            eum. Illo sint quo fugit culpa enim debitis, asperiores amet
+            necessitatibus!
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Web Prog</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+            eum. Illo sint quo fugit culpa enim debitis, asperiores amet
+            necessitatibus!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- campus section  -->
+
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum at
+        repudiandae fuga iure aliquam ut nemo, in quas perferendis!
+      </p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/london.png" alt="" srcset="" />
+          <div class="layer">
+            <h3>London</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="images/newyork.png" alt="" srcset="" />
+          <div class="layer">
+            <h3>New york</h3>
+          </div>
+        </div>
+
+        <div class="campus-col">
+          <img src="images/washington.png" alt="" srcset="" />
+          <div class="layer">
+            <h3>Washington</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------facelities---------- -->
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum odio
+        voluptatibus soluta laudantium sapiente obcaecati.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" alt="" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            necessitatibus nemo similique dicta suscipit ullam! Harum eum alias
+            minima eveniet.
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="images/basketball.png" alt="" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            necessitatibus nemo similique dicta suscipit ullam! Harum eum alias
+            minima eveniet.
+          </p>
+        </div>
+
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" alt="" />
+          <h3>Testy & Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            necessitatibus nemo similique dicta suscipit ullam! Harum eum alias
+            minima eveniet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------Testimonials------------ -->
+
+    <section class="testimonials">
+      <h1>What Our Student Says</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+        temporibus illum voluptatum aspernatur quidem nesciunt repellendus, eum
+        officiis. Voluptas, nihil.
+      </p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/user1.jpg" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis atque, vero fuga quidem quia error.
+            </p>
+            <h3>Bekar Hars</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/user2.jpg" alt="" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis atque, vero fuga quidem quia error.
+            </p>
+            <h3>Bekar Hars</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- --------call to action------ -->
+
+<section class="cta">
+	<h1>Enroll for our various courses <Br>Anywhere from the Worlds</h1>
+	<a href="" class="hero-btn">Contact Us</a>
+</section>
+
+
+<!-- ---------------footer--------------- -->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>Lorem ipsum dolor sit amet.lorem25 Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Atque dolor corporis architecto perferendis doloremque magni repellendus dignissimos deleniti laboriosam quos!</p>
+	<div class="icons">
+		<i class="fa-brands fa-facebook"></i>
+		<i class="fa-brands fa-twitter"></i>
+		<i class="fa-brands fa-linkedin"></i>
+		<i class="fa-brands fa-telegram"></i>
+		<i class="fa-brands fa-yandex-international"></i>
+	</div>
+	<p>Made With <i class="fa-regular fa-heart"></i> By AlivePython</p>
+</section>
+
+
+
+
+
+
+
+    <!-- -------------Script---------- -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
 </html>
